@@ -1,12 +1,12 @@
 # nba-hub Terms and Conditions
 
-Effective date: October 1, 2026
+Effective date: October 14, 2026
 
 These terms apply to nba-hub (the "app"), a Reddit app built on Reddit's Developer Platform that posts and maintains live basketball game threads for NBA and WNBA games. By installing the app in a subreddit, or by viewing content the app produces, you agree to these terms. If you do not agree, do not install or use the app.
 
 ## 1. What the app is
 
-The app creates Reddit posts for basketball games and keeps them updated with live scores, play-by-play, an animated court, box scores, shot charts, win probability, and related information. Moderators who install it choose, through its settings, which games are posted and how the resulting threads are flaired, sorted, pinned, locked, and followed by postgame threads.
+The app creates Reddit posts for basketball games and keeps them updated with live scores, play-by-play, an animated court, box scores, shot charts, win probability, and related information, along with megathreads and daily discussions. Moderators who install it choose, through its settings or by picking games from a list, which games are posted and how the resulting threads are flaired, sorted, pinned, locked, and followed by postgame threads.
 
 ## 2. Not affiliated with any league, team, or data provider
 
@@ -16,16 +16,16 @@ The app is an independent project. It is not affiliated with, endorsed by, or sp
 
 Game information is read from ESPN's public data services and presented without modification beyond formatting. It can be delayed, incomplete, or wrong, and it can change after the fact as the data source corrects itself. The app offers no guarantee that any score, statistic, clock, possession indicator, shot location, or probability is accurate or timely. Do not rely on it for anything where accuracy matters.
 
-## 4. Betting information
+## 4. No betting content
 
-Where the data source provides them, the app displays betting lines (spread, total, moneyline) and win probabilities exactly as published, for informational purposes only. The app does not offer, promote, or facilitate gambling, does not take or place wagers, and does not provide betting advice. Lines move; what the app shows may not be the current line anywhere. If you choose to bet, you do so with a licensed operator under the laws that apply to you, at your own risk.
+The app does not display betting lines or odds, and does not offer, promote, or facilitate gambling. Win probabilities, where shown, are the data source's model estimates of the game, published for information only, and are not betting advice.
 
 ## 5. Moderators' responsibilities
 
 A moderator who installs the app is responsible for:
 
 - choosing settings appropriate for their community, including which games post, pinning, locking, flair, and postgame behavior;
-- the content of any titles, comments, and flair text they configure, which the app posts verbatim;
+- the content of any titles, comments, flair text, and wiki pages they configure the app to use, which the app posts verbatim;
 - compliance with Reddit's Content Policy, Moderator Code of Conduct, and their subreddit's own rules in how the app is used;
 - removing threads they do not want; the app never re-posts a thread a moderator has removed unless a moderator explicitly clears that removal from the app's menu.
 

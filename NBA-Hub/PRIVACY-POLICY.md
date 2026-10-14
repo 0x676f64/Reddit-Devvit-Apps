@@ -1,6 +1,6 @@
 # nba-hub Privacy Policy
 
-Effective date: October 1, 2026
+Effective date: October 14, 2026
 
 nba-hub is a Reddit app, built on Reddit's Developer Platform (Devvit), that posts and maintains live basketball game threads (NBA and WNBA) in subreddits where a moderator has installed it. This policy explains what information the app handles, where it goes, and what it does not do.
 
@@ -23,17 +23,22 @@ Two display preferences, the light/dark theme and the full/half court view, are 
 
 When a moderator installs the app, Reddit sends the app an installation event containing the subreddit name and the installing moderator's Reddit username. The app sends a single Reddit private message with those two facts to the developer (u/0xgod) so the developer knows where the app is in use. This information is not stored by the app or shared further.
 
-Moderators use the app's settings page and menu items, which Reddit provides. Menu actions can send a status report to the subreddit's modmail; that report contains only game and thread information.
+Moderators use the app's settings page, menu items and pick-list forms, which Reddit provides. Menu actions can send a status report to the subreddit's modmail; that report contains only game and thread information.
+
+### Subreddit wiki pages
+
+If a moderator turns on the daily discussion's wiki features, the app reads the wiki pages the moderator names, from the subreddit where it is installed and nowhere else, to show their articles and history notes in the daily discussion. It reads only those pages, does not edit them, and does not read any other wiki or user content.
 
 ### Game data
 
-All basketball data (scores, play-by-play, box scores, shot locations, odds, injuries, team logos, player headshots) comes from ESPN's public data services. The app's server fetches it; your browser never contacts ESPN directly through this app. The app has no relationship with ESPN beyond reading that public data.
+All basketball data (scores, play-by-play, box scores, shot locations, standings, injuries, team logos, player headshots) comes from ESPN's public data services. The app's server fetches it; your browser never contacts ESPN directly through this app. The app has no relationship with ESPN beyond reading that public data.
 
 ## What the app stores
 
 The app uses Reddit's Redis storage, scoped to the subreddit where it is installed, for operational data only:
 
 - which Reddit post corresponds to which game, and the state of that thread (posted, pinned, locked, postgame posted, removed by a moderator);
+- the games a moderator picked by hand for game threads or the megathread;
 - short-lived caches of ESPN responses, built game views, and proxied images so that one fetch serves every viewer of a thread;
 - bookkeeping for the once-a-minute maintenance job, such as the time of its last run.
 
